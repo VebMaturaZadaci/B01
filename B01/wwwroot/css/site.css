@@ -1,0 +1,82 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #8cb8ff;
+}
+.galerija{
+    width: 640px;
+    height: 640px;
+    margin: auto;
+}
+.opis{
+    width: 100%;
+    height: 100px;
+}
+.slika{
+    width: 100%;
+    height: 480px;
+}
+.slika.img{
+    width: 100%;
+    height: 100%;
+}
+.slike{
+    width: 100%;
+    height: 40px;
+}
+.slicica{
+    height: 100%;
+    width: 64px;
+    display: inline-block;
+    float: left;
+}
+.slicica:hover{
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#naslov {
+    background-color: #8cb8ff;
+    color: #0250cf;
+    height: 60px;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 10px
+}
+#navigacija {
+    background-color: #0250cf;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.dugme {
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    color: #8cb8ff;
+    float: left;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+    .dugme:hover {
+        background-color: #8cb8ff;
+        color: black;
+    }

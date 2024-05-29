@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Pocetna";
+}
+<link href="../wwwroot/css/site.css" rel="stylesheet" />
+<div class="galerija">
+    <div class="opis">
+        <p>Opis slike</p>
+    </div>
+    <div class="slika">
+        <img src="./Images/1.jpg" alt="slika" id="velikaSlika"/>
+    </div>
+    <div class="slike">
+        <div class="slicica" onclick="promeniSliku('.//Images//1.jpg')"><img src="./Images/1.jpg" alt="" /></div>
+        <div class="slicica" onclick="promeniSliku('.//Images//2.jpg')"><img src="./Images/2.jpg" alt="" /></div>
+        <div class="slicica" onclick="promeniSliku('.//Images//3.jpg')"><img src="./Images/3.jpg" alt="" /></div>
+        <div class="slicica" onclick="promeniSliku('.//Images//4.jpg')"><img src="./Images/4.jpg" alt="" /></div>
+        <div class="slicica" onclick="promeniSliku('.//Images//5.jpg')"><img src="./Images/5.jpg" alt="" /></div>
+        <div class="slicica" onclick="promeniSliku('.//Images//6.jpg')"><img src="./Images/6.jpg" alt="" /></div>
+        <div class="slicica" onclick="promeniSliku('.//Images//7.jpg')"><img src="./Images/7.jpg" alt="" /></div>
+        <div class="slicica" onclick="promeniSliku('.//Images//8.jpg')"><img src="./Images/8.jpg" alt="" /></div>
+        <div class="slicica" onclick="promeniSliku('.//Images//9.jpg')"><img src="./Images/9.jpg" alt="" /></div>
+        <div class="slicica" onclick="promeniSliku('.//Images//10.jpg')"><img src="./Images/10.jpg" alt="" /></div>
+    </div>
+</div>
+
+<script>
+    function promeniSliku(putanja){
+        var slika = document.getElementById("velikaSlika");
+        slika.src = putanja;
+    }
+</script>
+
+
